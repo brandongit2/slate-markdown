@@ -1,0 +1,19 @@
+{
+    "name": "slate-markdown",
+    "version": "1.0.0",
+    "description": "A Markdown implementation for Slate.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandongit2/slate-markdown.git"
+    },
+    "author": "Brandon Tsang",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brandongit2/slate-markdown/issues"
+    },
+    "homepage": "https://github.com/brandongit2/slate-markdown#readme"
+}
