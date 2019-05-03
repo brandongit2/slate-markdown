@@ -1,6 +1,6 @@
 {
     "name": "slatecx-markdown",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "description": "A Markdown implementation for Slate.",
     "main": "src/index.js",
     "scripts": {
@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/brandongit2/slate-markdown/issues"
     },
-    "homepage": "https://github.com/brandongit2/slate-markdown#readme"
+    "homepage": "https://github.com/brandongit2/slate-markdown#readme",
+    "dependencies": {
+        "katex": "^0.10.1"
+    }
 }

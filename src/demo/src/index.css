@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Fira+Mono');
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Crimson Text', serif;
+}
+
+textarea {
+    font-family: 'Fira Mono', monospace;
+}
+
+p, a, span, h1, h2, h3, h4, h5, h6, div, textarea, input {
+    margin: 0px;
+}

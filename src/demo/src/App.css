@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.input, .output {
+    height: 100%;
+    flex-basis: 0px;
+    flex-grow: 1;
+}
+
+.input textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    box-sizing: border-box;
+}
