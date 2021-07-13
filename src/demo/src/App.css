@@ -5,8 +5,10 @@
 
 .input, .output {
     height: 100%;
+    width: 50%;
     flex-basis: 0px;
     flex-grow: 1;
+    white-space: pre-wrap;
 }
 
 .input textarea {
@@ -14,4 +16,43 @@
     height: 100%;
     resize: none;
     box-sizing: border-box;
+}
+
+.output {
+    overflow-y: auto;
+}
+
+.output > p {
+    position: sticky;
+    top: 0px;
+    background: white;
+    z-index: 100;
+}
+
+article {
+    padding: 1rem;
+}
+
+article .aside {
+    background: #ffe9ba;
+    border: 1px solid #84734e;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    width: 30em;
+    max-width: 100%;
+}
+
+article .labelled-list {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+article .labelled-list p {
+    margin: 0;
+}
+
+article .labelled-list > :nth-child(2n + 1) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
